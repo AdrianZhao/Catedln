@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewpoint" content="width=device-width, initinal-scale=1">
+    <meta name="author" content="Yuhan Zhao">
+    <meta name="discription" content="My Web Page">
+    <meta name="keywords" content="html, css, web, web development, seo">
+    <title>Catedln Login</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@300;600&display=swap">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="./assets/style/index.css" media="all">
+    <script src="./assets/script/index.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div id="login-box">
+        <div class="left">
+          <h1>Log in</h1>
+          <input type="text" class="username" placeholder="User Name" />
+          <input type="password" class="password" placeholder="Password" />
+          <p class="message"></p>         
+          <input type="submit" class="signup_submit" value="Log me in" onClick="checkInPut()"/>
+        </div>       
+        <div class="right">
+          <span class="loginwith">Sign in with<br/>social network</span>
+          <button class="social-signin facebook">Log in with facebook</button>
+          <button class="social-signin twitter">Log in with Twitter</button>
+          <button class="social-signin google">Log in with Google+</button>
+        </div>
+        <div class="or">OR</div>
+      </div>
+    </main>
+  </body>
+</html>
