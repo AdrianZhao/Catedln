@@ -94,7 +94,8 @@ function setUser(name, location, image) {
 function addPeople(postBox, obj) {
   let info = create('div');
   info.classList.add("info");
-  info.innerText = `${obj.name}\n${obj.location}\n`;
+  info.innerHTML = `<p class="name">${obj.name}</p>
+                    <p class="location">${obj.location}</p>`;
   let img = create('div');
   img.innerHTML = `<img src=\"${obj.image}\">`;
   img.classList.add("img");

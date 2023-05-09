@@ -135,7 +135,7 @@ main h1 {
 textarea {
   color: #000;
   background-color: #ededed;
-  width: 650px;
+  width: 620px;
   height: 250px;
   resize: none;
   padding: 12px 15px;
@@ -240,7 +240,7 @@ main button:active {
   transition: box-shadow 0.2s ease-in;
 }
 .peopleboard {
-  width: 187px;
+  width: 250px;
   background-color: #ededed;
   margin-left: 20px;
   height: 990px;
@@ -263,10 +263,17 @@ main button:active {
 .peopleboard .info {
   padding-left: 5px;
   margin: auto;
-  width: 82px;
+  width: 152px;
   line-height: 1.0;
   font-size: 13px;
   text-align: center;
+}
+.peopleboard .name {
+  color: #3e9dff;
+  font-weight: 600;
+}
+.peopleboard .location {
+  font-weight: 300;
 }
 .peopleboard .img {
   cursor: pointer;
@@ -298,7 +305,7 @@ main button:active {
 .board .div {
   margin-top: 30px;
   border-radius: 10px;
-  width: 650px;
+  width: 620px;
   padding: 10px;
   color: #14161d;
   background-color: #e0e0e0;
